@@ -1,6 +1,6 @@
 /**
- * This class represents polygon
- * @author pavelm
+ * This class represents basic polygon
+ * @author Pavel Mayzenberg
  * @version 1.0
  *
  */
@@ -37,6 +37,9 @@ public class Polygon {
 		return this.sideLength;
 	}
 	
+	/**
+	 * Prints area calculation results 
+	 */
 	public String toString() {
 		return "The area of " + this.getClass().getSimpleName() + " is: " + this.area();
 	}
